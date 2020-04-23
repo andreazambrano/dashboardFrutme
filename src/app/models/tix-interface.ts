@@ -27,6 +27,7 @@ export interface TixInterface{
 	modelo?:string;
 	new?:boolean;
 	notes?:string;
+	presentacion?:string;
 	precio?:number;
 	price?:number;
 	productName?:string;
