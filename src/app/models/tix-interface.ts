@@ -2,6 +2,9 @@ export interface TixInterface{
 	id?:string;	
 	address?:string;
 	altitud?:string;
+	beneficio?:number;
+	stock?:number;
+	stockmin?:number;
 	cantD?:number;
 	capacidad?:number;
 	category?:string;

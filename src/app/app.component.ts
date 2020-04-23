@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
  	public dataApi:DataApiService,
   private route:ActivatedRoute,
   private location: Location,
-  private router: Router
+  public router: Router
     ){
 
  }
