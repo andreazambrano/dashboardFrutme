@@ -15,7 +15,7 @@ export class FooterComponent implements OnInit {
     public _uw:UserWService,
     private route:ActivatedRoute,
    private location: Location,
-    private router: Router
+    public router: Router
   	) { }
 
   ngOnInit() {
